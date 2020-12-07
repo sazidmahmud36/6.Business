@@ -1,0 +1,256 @@
+/*
+Theme Name: Business Theme
+Theme URI: 
+Author: Sazid Mahmud
+Author URI: https://fb.com
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it y
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+  /* Space out content a bit */
+  body {
+    padding-top: 1.5rem;
+    font-size: 15px;
+    color: #7a7a7a;
+    line-height: 1.7em;
+  }
+  a{
+    color: #ED1B2E;
+    text-decoration: none !important;
+  }
+  .btn-primary{
+    background: #ED1B2E;
+    color: #fff;
+    border-color: #fff;
+  }
+  .btn-primary:hover{
+    background: #E9ECEF;
+    border-color:#ED1B2E;
+    color: #ED1B2E;
+  }
+  .btn-primary-reverse:hover{
+    background: #E9ECEF;
+    border-color:#ED1B2E;
+  }
+  /*.container{
+    max-width: 1020px;
+  }*/
+  .nav-pills .nav-link.active, 
+  .nav-pills .show > .nav-link{ 
+    background: #ED1B2E ;
+  }
+  .nav-pills > li:hover{
+    background: #E9ECEF;
+    border-radius: 3px;
+  }
+  a:hover{
+    color: #ED1B2E;
+  }
+.active{
+ background: #ED1B2E;
+ border-radius: 3px;
+}
+.active a{
+  color: white;
+}
+.title-bar{
+  background: #0FAF97;
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 6px solid #ddd;
+  margin-bottom: 20px;
+}
+
+  .custom-logo{
+    width: 14%;
+    height: auto;
+  }
+
+  /* Custom page header */
+  .header {
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #ED1B2E;
+  }
+  /* Make the masthead heading the same height as the navigation */
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+  }
+  .jumbotron{
+    text-align: center;
+    border-bottom: 1px solid #ED1B2E;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: #fff;
+  }
+  /* Custom page footer */
+  .footer {
+    padding-top: 1.5rem;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
+  }
+
+  article.post img{
+    width: 100%; 
+    height: auto;
+  }
+  .block{
+    border: 1px solid #ccc;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+
+  }
+  .block h3{
+   color: #ED1B2E;
+  }
+  .fa{
+   color: #ED1B2E;
+   padding-bottom: 20px;
+  }
+
+  .fa-3{
+    font-size: 4em;
+  }
+  .marketing{
+    margin: 40px 0;
+  }
+
+  .content-region-1{
+    background: #0faf97;
+    color: #fff;
+    text-align: center;
+  }
+  .content-region-2{
+    background: #f4f4f4;
+    color: #333;
+  }
+  .content-region-3{
+    background: #000;
+    color: #fff;
+  }
+  .content-region-2 img{
+    width: 100%;
+  }
+  .content-region-3 h4{
+  border-left: 5px solid #ED1B2E;
+  padding-left: 8px;
+  margin-bottom: 20px;
+  }
+  .content-region-1 h1,.content-region-2 h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  font-size: 40px;
+  }
+  .content-region-3 form input[type="text"],
+  .content-region-3 form input[type="email"],
+  .content-region-3 form textarea{
+    width: 100%;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    border: 0;
+  }
+
+.panel-heading{
+   background: #ED1B2E;
+   color: #fff;
+   padding: 5px;
+   padding-bottom: 2px;
+   border-radius: 5px;
+}
+.sidebar-widget ul{
+  padding: 0 !important;
+  list-style: none;
+}
+.sidebar-widget li{
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border:1px solid #ddd;
+  border-radius: 5px;
+}
+.comments{
+  border:1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.comments h2,.comments H3{
+  background: #0FAF97;
+  color: #fff;
+  padding: 5px;
+}
+.comment-body{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+.comment-meta{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  overflow: auto;
+}
+.comment-meta img{
+  float: left;
+  margin-right: 10px;
+}
+.commnet-meta time{
+  margin-left: 12px;
+}
+.comment-reply-link{
+  background: #0FAF97;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+}
+.comment-form input, .comment-form textarea{
+  width: 100%;
+  padding: 3px;
+  border:1px solid #ccc;
+  margin-bottom: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pt10{padding-top: 10px;}
+  .pb10{padding-bottom: 10px;}
+  .pt20{padding-top: 20px;}
+  .pb20{padding-bottom: 20px;}
+  .pt30{padding-top: 30px;}
+  .pb30{padding-bottom: 30px;}
+  .pt40{padding-top: 40px;}
+  .pb40{padding-bottom: 40px;}
+  .pt50{padding-top: 50px;}
+  .pb50{padding-bottom: 50px;}
+  .pt60{padding-top: 60px;}
+  .pb60{padding-bottom: 60px;}
+
